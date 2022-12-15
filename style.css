@@ -4,6 +4,16 @@
     margin: 0;
 }
 
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.direction {
+    flex-direction: row;
+    padding: 10px;
+}
 
 .main-header {
     background-color: rgb(60, 60, 214)
@@ -14,6 +24,9 @@
     align-items: center;
     min-height: 60px;
 
+}
+
+.logo-wrapper {
 }
 
 .col-nav{
@@ -33,9 +46,13 @@ span{
     color: white;
 }
 
+.conteiner-small {
 
+}
 
-
+img{
+    max-width: 100%;
+}
 
 
 
@@ -93,19 +110,10 @@ span{
 
 
 
-.row {
-    display: flex;
-}
 
-.logo-wrapper {
-}
 
-.conteiner-small{
-    max-width: 700px;
-    margin: 0 auto;
-    border: 5px dotted red;
-    min-height: 500px;
-}
+
+
 
 .debug .hero {
     background-color: blue;
@@ -125,9 +133,6 @@ span{
     background-color: pink;
 }
 
-.main-content section {
-    padding: 50px;
-}
     
 .bg-gray{
     background-color: gray;
