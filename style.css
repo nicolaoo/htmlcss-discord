@@ -4,6 +4,56 @@
     margin: 0;
 }
 
+
+.main-header {
+    background-color: rgb(60, 60, 214)
+}
+
+.main-header .row {
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+
+}
+
+.col-nav{
+    padding: 0 81px;
+}
+
+.sign {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: 0;
+}
+
+span{
+    padding: 0 20px 0 0;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .debug .main-header {
     background-color: rgb(112, 178, 178);
     padding: 20px 0;
@@ -41,18 +91,13 @@
     padding: 20px;
 }
 
-.main-header .row {
-    justify-content: space-between;
-    align-items: center;
-    min-height: 100px;
-}
+
 
 .row {
     display: flex;
 }
 
 .logo-wrapper {
-    min-height: 90px;
 }
 
 .conteiner-small{
