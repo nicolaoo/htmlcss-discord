@@ -20,14 +20,11 @@
     padding: 10px;
 }
 
-.main-header {
-    background-color: rgb(60, 60, 214)
-}
-
-.main-header .row {
+.main-header{
     justify-content: space-between;
     align-items: center;
     min-height: 60px;
+    background-color: rgb(60, 60, 214)
 }
 
 .logo-wrapper {
@@ -157,7 +154,7 @@ img{
 }
 
 .foot {
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .flag-padding {
