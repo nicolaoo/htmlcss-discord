@@ -53,8 +53,7 @@
 }
 
 .download{
-    columns: rgb(255, 255, 255);
-    background-color: rgb(38, 129, 186);
+    background-color: rgb(106, 17, 240);
     display: inline-block;
     margin-left: 380px;
     height: 40px;
@@ -116,6 +115,46 @@ img{
 .section {
     margin: 40px 0 0 0;
 }
+
+.row-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0 0;
+}
+
+.page-footer {
+    background-color: rgb(45, 43, 43);
+}
+
+.rule-footer {
+    border-top: 2px solid rgb(106, 17, 240);
+}
+
+
+.col-33 {
+    flex-basis: calc(100%/3);
+    background-color: palevioletred;
+    
+}
+
+.col-16 {
+    flex-basis: calc(100%/6);
+    background-color: aqua;
+}
+
+.section-footer {
+    padding: 30px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -215,28 +254,8 @@ img{
 
 
 
-.col-33 {
-    flex-basis: calc(100%/3);
-    background-color: palevioletred;
-    
-}
-
-.col-16 {
-    flex-basis: calc(100%/6);
-    background-color: aqua;
-}
 
 
-
-
-
-.section-footer {
-    padding: 30px 0 0 0;
-}
-
-.page-footer .row-footer {
-    justify-content: space-between;
-}
 
 
 
