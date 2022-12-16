@@ -1,7 +1,14 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); </style>
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .conteiner{
@@ -25,20 +32,31 @@
     align-items: center;
 }
 
-.direction {
+.hero {
+    background-image: url("./img/jumbo.png");
+    background-size: cover;
+    background-position: bottom;
+    padding: 130px;
+}
+
+.row-main h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.col-nav span {
+    color: white;
+    padding: 0 10px;
+}
+
+.row-direction {
+    display: flex;
     flex-direction: row;
     padding: 10px;
 }
 
 .main-header{
     background-color: rgb(37,94,233);
-}
-
-.logo-wrapper {
-}
-
-.conteiner-small {
-
 }
 
 .col-nav{
@@ -65,11 +83,6 @@
     text-align: center;
     color: white;
     margin-bottom: 30px;
-}
-
-span{
-    padding: 0 20px 0 0;
-    color: white;
 }
 
 .col-60 {
@@ -131,6 +144,7 @@ img{
 
 .rule-footer {
     border-top: 2px solid rgb(106, 17, 240);
+    padding-top: 10px;
 }
 
 
@@ -161,15 +175,11 @@ img{
 }
 
 .foot {
-    padding-top: 0px;
+    padding-top: 20px;
 }
 
 .flag-padding {
     padding: 10px 0;
-}
-
-.row {
-    padding-top: 20px;
 }
 
 .page-footer p {
