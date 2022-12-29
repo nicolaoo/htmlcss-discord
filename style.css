@@ -124,6 +124,10 @@ img{
     flex-direction: column;
 }
 
+.strar-img {
+    background-image: url("./img/stars.svg");
+}
+
 .text-end {
     text-align: center;
     padding-bottom: 45px;
