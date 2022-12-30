@@ -1,13 +1,11 @@
-<style> @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); </style>
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;400;600;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
-}
-
-html {
+    font-family: 'Chivo Mono', monospace;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -24,6 +22,17 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+    width: 630px;
+    margin-left: 160px;
+}
+
+.row-main-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 15px;
 }
 
 .row-header {
@@ -65,7 +74,9 @@ html {
 
 .sign {
     background-color: white;
-    color: black; 
+    color: black;
+    padding: 15px;
+    border-radius: 40px;
 }
 
 .botto {
@@ -75,14 +86,19 @@ html {
 }
 
 .download{
-    background-color: rgb(128, 83, 194);
-    display: inline-block;
-    margin-left: 380px;
-    height: 40px;
-    width: 150px;
-    text-align: center;
+    background-color: rgb(36, 36, 37);
     color: white;
-    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.btn-download {
+    background-color: rgb(114,137,218);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 50px;
+    margin-bottom: 150px;
+    color: white;
 }
 
 .col-60 {
@@ -99,7 +115,7 @@ img{
 }
 
 .bg-gray{
-    background-color: gray;
+    background-color: rgb(246,246,246);
 }
 
 .row-img {
@@ -130,7 +146,16 @@ img{
 
 .text-end {
     text-align: center;
-    padding-bottom: 45px;
+    padding-top: 60px;
+    font-size: 35px;
+
+}
+
+.col-section-end {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
 }
 
 .section {
@@ -170,11 +195,11 @@ img{
 }
 
 .page-footer h1,h4 {
-    color: rgb(128, 83, 194);
+    color: rgb(114,137,218);
 }
 
 .flag {
-    width: 20px;
+    width: 30px;
     padding-right: 5px;
 }
 
@@ -184,6 +209,8 @@ img{
 
 .flag-padding {
     padding: 10px 0;
+    display: flex;
+    align-items: baseline;
 }
 
 .page-footer p {
@@ -191,7 +218,10 @@ img{
     color: white;
 }
 
-
+.icons-foot {
+    color: white;
+    padding: 0 5px;
+}
 
 
 
